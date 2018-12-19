@@ -1,10 +1,12 @@
 package com.neuedu.bm.service;
 
+import com.neuedu.bm.entity.User;
+
 public class UserService {
 
-	public boolean validate(String username, String password) {
+	public User validate(String username, String password) {
 		// TODO Auto-generated method stub
-		return false;
+		return null;
 	}
 	
 }
