@@ -6,13 +6,13 @@ public class Book {
 	private String author;
 	private String publisher;
 	private String publishingDate;
-	private Integer count;
+	private Integer amount;
 	private String category;
 	
 	public Book() {
 		super();
 	}
-	public Book(Integer bookId, String bookName, String author, String publisher, String publishingDate, Integer count,
+	public Book(Integer bookId, String bookName, String author, String publisher, String publishingDate, Integer amount,
 			String category) {
 		super();
 		this.bookId = bookId;
@@ -20,7 +20,7 @@ public class Book {
 		this.author = author;
 		this.publisher = publisher;
 		this.publishingDate = publishingDate;
-		this.count = count;
+		this.amount = amount;
 		this.category = category;
 	}
 	public Integer getBookId() {
@@ -53,11 +53,11 @@ public class Book {
 	public void setPublishingDate(String publishingDate) {
 		this.publishingDate = publishingDate;
 	}
-	public Integer getCount() {
-		return count;
+	public Integer getAmount() {
+		return amount;
 	}
-	public void setCount(Integer count) {
-		this.count = count;
+	public void setAmount(Integer amount) {
+		this.amount = amount;
 	}
 	public String getCategory() {
 		return category;
