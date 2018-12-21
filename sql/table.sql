@@ -2,7 +2,9 @@ create table bm_user(
  id int primary key auto_increment,
  username varchar(32) unique,
  password varchar(32),
- user_type char(1)
+ user_type char(1),
+ borrow_limit int,
+ borrow_count int
 );
 
 
